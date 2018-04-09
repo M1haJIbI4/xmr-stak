@@ -1,0 +1,10 @@
+ - cd c:\xmr-stak\build\bin\Release
+  - dir
+  - copy C:\xmr-stak-dep\openssl\bin\* .
+  - set XMRSTAK_NOWAIT=1
+  - 7z a c:\xmr-stak\arc.zip "c:\xmr-stak\build\bin\Release\*.exe" "c:\xmr-stak\build\bin\Release\*.dll"
+  - dir
+#  - xmr-stak.exe —help —noUAC
+
+artifacts:
+  - path: arc.zip
