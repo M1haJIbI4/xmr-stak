@@ -6,7 +6,6 @@
 XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NVIDIA gpus and can be used to mine the crypto currency Monero and Aeon.
 
 ## HTML reports
-<img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-hashrate.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-results.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-connection.png" width="260">
 
 ## Video setup guide on Windows
 
@@ -20,8 +19,7 @@ XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NV
 * [Usage](doc/usage.md)
 * [HowTo Compile](doc/compile.md)
 * [FAQ](doc/FAQ.md)
-* [Developer Donation](#default-developer-donation)
-* [Developer PGP Key's](doc/pgp_keys.md)
+
 
 ## Features
 
@@ -55,22 +53,8 @@ If your prefered coin is not listed, you can chose one of the following algorith
 
 Please note, this list is not complete, and is not an endorsement.
 
-## Download
-
-You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases).
 
 ## Default Developer Donation
 
 By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
 
-If you want to donate directly to support further development, here is my wallet
-
-fireice-uk:
-```
-4581HhZkQHgZrZjKeCfCJxZff9E3xCgHGF25zABZz7oR71TnbbgiS7sK9jveE6Dx6uMs2LwszDuvQJgRZQotdpHt1fTdDhk
-```
-
-psychocrypt:
-```
-45tcqnJMgd3VqeTznNotiNj4G9PQoK67TGRiHyj6EYSZ31NUbAfs9XdiU5squmZb717iHJLxZv3KfEw8jCYGL5wa19yrVCn
-```
