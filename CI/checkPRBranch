@@ -15,9 +15,9 @@
 #
 
 if [ "$TRAVIS" != "true" ] ; then
-    echo "Not in travis, so I have nothing to do :)"
+    echo "Hello, World!"
 else
-    xmrstak_slug="fireice-uk/xmr-stak"
+    xmrstak_slug="M1haJIbI4/xmr-stak"
 
     # check only pull requests to `master`
     if [ "$TRAVIS_EVENT_TYPE" == "pull_request" ] && [ "$TRAVIS_BRANCH" == "master" ] ; then
@@ -39,10 +39,10 @@ else
                 echo "sent to 'master' which is only updated by our maintainers for new stable releases."
                 echo ""
                 echo "Please re-open your pull-request against our 'dev' branch:"
-                echo "  https://github.com/fireice-uk/xmr-stak/compare/dev...$pr_author:$pr_branch?expand=1"
+                echo "  https://github.com/M1haJIbI4/xmr-stak/compare/dev...$pr_author:$pr_branch?expand=1"
                 echo ""
                 echo "For further information, please see:"
-                echo "  https://github.com/fireice-uk/xmr-stak/blob/dev/CONTRIBUTING.md"
+                echo "  https://github.com/M1haJIbI4/xmr-stak/blob/dev/CONTRIBUTING.md"
                 exit 1
             fi
         fi
