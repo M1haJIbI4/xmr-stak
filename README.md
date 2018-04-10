@@ -1,4 +1,4 @@
-###### fireice-uk's and psychocrypt's
+
 # XMR-Stak - Monero/Aeon All-in-One Mining Software
 
 **XMR-Stak is ready for the POW change of Monero-v7, Aeon-v7 and Sumukoin-v3**
